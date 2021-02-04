@@ -1,0 +1,25 @@
+#leftMenuContainer {
+
+}
+
+#main {
+  
+
+}
+
+#bigContainer {
+  background: #f3f3f3;
+}
+
+#leaveForm {
+  background: white;
+}
+
+#leftMenuImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+#book {
+  width: 300px;
+}

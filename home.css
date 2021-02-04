@@ -1,0 +1,27 @@
+body {
+  background-image: url('pic1.png');
+  background-size: cover;         
+  background-repeat: no-repeat;
+}
+
+#submit {
+  position: absolute;
+
+  right: 0;
+  top: 0;
+  width: 500px;
+  height: 500px;
+
+}
+
+#submit:hover {
+
+}
+
+#leftMenu {
+	background-image: url('leftMenu.png');
+}
+
+#result {
+
+}

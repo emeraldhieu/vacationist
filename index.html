@@ -1,0 +1,100 @@
+<html>
+	<head>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+		<!-- JQuery UI -->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		
+		<link rel="stylesheet" href="index.css">
+
+		<script src="vacationist.js"></script>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+
+		<div id="bigContainer" class="container col-lg-10">
+
+			<div id="leftMenuContainer" class="col-lg-3">
+				<img id="leftMenuImage" src="leftMenu.png" class="img-responsive">
+			</div>
+			
+	 		<div id="main" class="container col-lg-7">
+
+	 			<h1>Vacationist</h1>
+
+	 			<div id="leaveForm" class="container col-lg-7">
+	 				
+		 			<h2>Submit a leave</h2>
+
+		 			<div id="mainForm" >
+						<form class="form-horizontal">
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label">Member</label>
+
+								<div class="col-sm-10">
+									<select id="fullName" class="form-control">
+									</select>
+								</div>
+
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label">Start date</label>
+								<div class="col-sm-10">
+									<input id="startDate" value="2021-02-04T00:00:00Z" class="form-control" />
+								</div>
+							</div>
+
+							<div class="form-group" >
+								<label class="col-sm-2 control-label">Number of days</label>
+								<div class="col-sm-10">
+									<input id="days" value="2" class="form-control" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+								  <button type="button" id="book" class="btn btn-default">Let's fly!</button>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<div id="result">
+
+									</div>
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+							 		<div id="members">
+							 			<a href="members.html">Members</a>
+							 		</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+
+	 			</div>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
